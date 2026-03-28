@@ -216,7 +216,7 @@ function setupLoginButton() {
         const passwordInput = document.getElementById('password-input');
         const senhaDigitada = passwordInput.value.trim();
 
-        const senhaCorreta = "12345"; // senha fixa
+        const senhaCorreta = "cordeiro"; // senha fixa
 
         if (senhaDigitada === senhaCorreta) {
             // acesso liberado → vai pra próxima tela
